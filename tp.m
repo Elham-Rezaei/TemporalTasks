@@ -1,3 +1,4 @@
+%testing
 % Initial screen settings
 Screen('Preference', 'SkipSyncTests', 1);
 [window, windowRect] = Screen('OpenWindow', 0, [128, 128, 128]); 
