@@ -43,6 +43,6 @@ end
 xlabel('Reproduced Time (tr)', 'FontSize', 12);
 ylabel('Probability Density', 'FontSize', 12);
 title('Distribution of TR Values Across All TS Groups', 'FontSize', 14);
-legend('show', 'Location', 'northeast'); % Set legend position to northwest
+legend('show', 'Location', 'northeast'); 
 grid on;
 hold off;
