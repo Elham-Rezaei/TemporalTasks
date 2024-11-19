@@ -29,8 +29,8 @@ for i = 1:length(unique_ts)
     % Plot only the normal distribution curve (without histogram)
     x = linspace(min(filtered_tr), max(filtered_tr), 100);
     y = (1 / (sigma * sqrt(2 * pi))) * exp(-0.5 * ((x - mu) / sigma).^2);
-    plot(x, y, '-', 'LineWidth', 2, 'Color', colors(mod(i-1, size(colors, 1)) + 1, :), ...
-        'DisplayName', ['ts = ', num2str(ts_value)]);
+   plot(x, y, '-', 'LineWidth', 2, 'Color', colors(i, :), ...
+    'DisplayName', ['ts = ', num2str(ts_value)]);
     
     % Shade the area under the normal curve
     fill([x fliplr(x)], [y zeros(size(y))], ...
