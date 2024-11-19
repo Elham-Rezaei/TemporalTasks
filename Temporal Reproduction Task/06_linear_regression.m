@@ -24,6 +24,5 @@ title('Linear Regression Analysis of Simple Time vs. Reproduce Time', 'FontSize'
 legend({'Observed Data', 'Regression Line'}, 'FontSize', 10, 'Location', 'northwest');
 yticks([200:200:2200]);
 
-% Adjust axes
 grid on;
 hold off;
