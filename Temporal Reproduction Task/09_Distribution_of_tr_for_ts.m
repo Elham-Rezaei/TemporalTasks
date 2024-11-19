@@ -34,8 +34,9 @@ for i = 1:length(unique_ts)
     
     % Shade the area under the normal curve
     fill([x fliplr(x)], [y zeros(size(y))], ...
-        colors(mod(i-1, size(colors, 1)) + 1, :), ...
-        'FaceAlpha', 0.2, 'EdgeColor', 'none');
+    colors(i, :), ... 
+    'FaceAlpha', 0.2, 'EdgeColor', 'none');
+
 end
  
 % Add labels, title, legend, and grid
