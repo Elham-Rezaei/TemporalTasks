@@ -39,8 +39,8 @@ rightTargetPos = fixationPoint + [distanceFromFixation_pixels, 0];
 % Color settings
 fixationColor = [255, 255, 255]; % White for fixation point
 targetColor = [255, 255, 255];   % White for peripheral targets
-yellowColor = [150, 150, 50];    % RGB color for yellow spokes
-purpleColor = [150, 50, 150];    % RGB color for purple spokes
+yellowColor = [150, 150, 50];    % color for yellow spokes
+purpleColor = [150, 50, 150];    % color for purple spokes
 
 % Start angles for each spoke
 angles = [10, 70, 130, 190, 250, 310];
