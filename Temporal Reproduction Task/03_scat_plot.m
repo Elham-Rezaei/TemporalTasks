@@ -27,6 +27,8 @@ xlabel('Simple Time (ts)', 'FontSize', 12);
 ylabel('Reproduce Time (tr)', 'FontSize', 12);
 title('Scatter Plot of Simple Time (ts) vs Reproduce Time (tr)', 'FontSize', 14, 'FontWeight', 'bold');
 legend({'Observed Data', 'Ideal Reproduction (ts = tr)'}, 'FontSize', 10, 'Location', 'northwest');
+xticks(0:200:2200);
+yticks(0:200:2200);
 
 % Add statistical text box
 stats_text = sprintf(['Mean ts = %.2f ms\nMean tr = %.2f ms\nStd ts = %.2f ms\nStd tr = %.2f ms'], ...
